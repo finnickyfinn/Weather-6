@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+:root{
+    --pink: #f8c8dc;
+    --blue: #A7C7E7;
+    --white: #ffffff
+}
+
+.everything {
+    background-color: var(--pink);
+}
+
+.title{
+    color: var(--pink);
+}
+
+.weatherBox {
+
+    background-color: var(--blue);
+    height: 200px;
+    width: 175px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#today {
+    border-style: solid;
+    border-radius: 10px;
+    background-color: var(--blue);
+}
+
+body {
+    background-color: var(--pink);
+}
